@@ -2,7 +2,7 @@
 
 Intergalactic cargo inspection terminal and an auditable comparison of Nace Drex (`drex-max-v1.1`) with `openai/gpt-5.4` through OpenRouter. The rule labels come from a deterministic fictional oracle. Neither model generates or grades the cases.
 
-This repository was built for the Nace Drexathon by Manoj Kumar Bashaboina. The source is published at <https://github.com/bashaboinamanojkumar/cosmic-customs>. Opening the public site replays saved results and does not spend API budget.
+This repository was built for the Nace Drexathon by Manoj Kumar Bashaboina. The source is published at <https://github.com/bashaboinamanojkumar/cosmic-customs>. The public dashboard is <https://cosmic-customs.vercel.app>. Opening it replays saved results and does not spend API budget.
 
 ## Run the dashboard
 
@@ -30,7 +30,7 @@ VIRTUAL_ENV=.venv-wsl uv pip check
 
 Open http://127.0.0.1:8000/. The page loads saved results and does not spend money on load.
 
-The same app is deployed with `vercel.json`. The hosted process stays in `APP_MODE=mock` unless that environment sets live mode and both provider keys. Keys belong in the host environment, not in the repository. A hosted inspection finishes inside the request and is written under `/tmp`, because that filesystem does not keep project-directory writes. The measured replay is read from `results/live/`.
+The same app is deployed at <https://cosmic-customs.vercel.app> with `vercel.json`. The hosted process stays in `APP_MODE=mock` unless that environment sets live mode and both provider keys. Keys belong in the host environment, not in the repository. A hosted inspection finishes inside the request and is written under `/tmp`, because that filesystem does not keep project-directory writes. The measured replay is read from `results/live/`.
 
 Copy `.env.example` to `.env` and fill the keys on the server. The browser never receives them. `APP_MODE` defaults to `mock`.
 

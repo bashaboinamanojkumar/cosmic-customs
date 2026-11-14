@@ -18,7 +18,7 @@ Updated 2026-11-14 14:15 America/Los_Angeles (WSL continuation). Deadline 15:00 
 
 - `benchmark_ndi.py --limit 10` was not run (the one authorized live packet stands).
 - No Adobe Firefly asset was created. The packets use geometric fallbacks.
-- Source repository: https://github.com/bashaboinamanojkumar/cosmic-customs. The public site stays in mock mode.
+- Source repository: https://github.com/bashaboinamanojkumar/cosmic-customs. Public dashboard: https://cosmic-customs.vercel.app. The public site stays in mock mode.
 
 ## Budgets after the measured calls
 

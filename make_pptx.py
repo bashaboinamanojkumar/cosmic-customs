@@ -11,6 +11,7 @@ from pptx.util import Emu, Inches, Pt
 
 OUT = "submission/Cosmic-Customs.pptx"
 GITHUB = "https://github.com/bashaboinamanojkumar/cosmic-customs"
+SITE = "https://cosmic-customs.vercel.app"
 
 NAVY = RGBColor(0x07, 0x11, 0x1F)
 NAVY2 = RGBColor(0x10, 0x20, 0x33)
@@ -294,9 +295,9 @@ def build() -> Presentation:
     ]
     add_bullets(slide, steps, Inches(0.6), Inches(1.15), Inches(12.1), Inches(3.3), 20, INK, 10)
     card(slide, Inches(0.55), Inches(4.85), Inches(12.2), Inches(1.85), NAVY2)
-    add_text(slide, "SOURCE", Inches(0.85), Inches(5.05), Inches(2), Inches(0.3), 13, AMBER, True)
-    add_text(slide, GITHUB, Inches(0.85), Inches(5.38), Inches(11.5), Inches(0.4), 20, CREAM, True)
-    add_text(slide, "The public copy stays in mock mode, so visitors can inspect the desk without spending the benchmark budget.", Inches(0.85), Inches(5.9), Inches(11.4), Inches(0.5), 16, MUTED)
+    add_text(slide, "SOURCE  ·  PUBLIC DASHBOARD", Inches(0.85), Inches(5.02), Inches(8), Inches(0.28), 13, AMBER, True)
+    add_text(slide, GITHUB, Inches(0.85), Inches(5.32), Inches(11.5), Inches(0.34), 18, CREAM, True)
+    add_text(slide, SITE + "   ·   mock mode, no API spend on load", Inches(0.85), Inches(5.72), Inches(11.5), Inches(0.4), 18, INK)
     notes(slide, "Close by opening the dashboard. Show a saved shipment, then point at the mock label before anyone clicks Inspect.")
     return prs
 

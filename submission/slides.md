@@ -53,4 +53,4 @@
 - With APP_MODE=live and server-side keys, Inspect calls both providers once per click.
 - Text view replays the held-out test. Document view shows the one live NDI packet.
 - Artwork on the packets is geometric fallback art, not an Adobe Firefly render.
-- Source: https://github.com/bashaboinamanojkumar/cosmic-customs. The public site stays in mock mode.
+- GitHub: github.com/bashaboinamanojkumar/cosmic-customs. Dashboard: cosmic-customs.vercel.app, mock mode.
