@@ -1,0 +1,10 @@
+.venv/
+.venv-wsl/
+.env
+__pycache__/
+*.py[cod]
+.pytest_cache/
+work/
+results/live/inspections/
+*.log
+.intern/
